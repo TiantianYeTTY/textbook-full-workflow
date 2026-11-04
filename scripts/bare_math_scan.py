@@ -1,7 +1,7 @@
 # Designed by TiantianYe
 #!/usr/bin/env python3
 """
-bare_math_scan.py —— Markdown 裸数学扫描器（Skill: textbook-review-pdfs md 质检步）
+bare_math_scan.py —— Markdown 裸数学扫描器（Skill: textbook-full-workflow md 质检步）
 
 职责：
     扫描 md 中所有"没包进 $...$/$$...$$ 的数学写法"，输出行号与命中详情。

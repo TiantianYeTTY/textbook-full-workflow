@@ -1,7 +1,7 @@
 # Designed by TiantianYe
 #!/usr/bin/env python3
 """
-numeric_check_template.py —— 数值复算模板（Skill: textbook-review-pdfs 校对步）
+numeric_check_template.py —— 数值复算模板（Skill: textbook-full-workflow 校对步）
 
 职责：
     交付前的强制校对底座。硬规则：**文档中每一个计算结果都必须程序化复算**，

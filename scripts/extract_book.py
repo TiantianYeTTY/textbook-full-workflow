@@ -1,7 +1,7 @@
 # Designed by TiantianYe
 #!/usr/bin/env python3
 """
-extract_book.py —— 教科书 PDF 文本提取与规范化（Skill: textbook-review-pdfs 第 1 步）
+extract_book.py —— 教科书 PDF 文本提取与规范化（Skill: textbook-full-workflow 第 1 步）
 
 用途：
     把用户提供的教科书 PDF 提取为带页码标记的规范化全文文本，供 AI 分批精读。
@@ -51,7 +51,10 @@ for a, b in [('．', '.'), ('（', '('), ('）', ')'), ('，', ','), ('：', ':'
              ('％', '%'), ('＿', '_'), ('　', ' ')]:
     FW_MAP[a] = b
 
-PUA_RANGE = r'\uE000-\uF8FF\U000100000-\U0010FFFF'
+# ⚠ \U 转义必须正好 8 位十六进制：'\U00010000-\U0010FFFF'。此前误写为
+#   '\U000100000-\U0010FFFF'（多一个 0），剩余字面 '0' 与 '-' 组成范围
+#   U+0030-U+10FFFF，导致所有数字间的数字被替换成小数点（1024→1..4）。
+PUA_RANGE = r'\uE000-\uF8FF\U00010000-\U0010FFFF'
 
 
 def clean(text: str) -> str:

@@ -1,6 +1,6 @@
 // Designed by TiantianYe
 /**
- * build_pdfs.mjs —— Markdown → HTML(KaTeX) 构建器（Skill: textbook-review-pdfs 第 3 步）
+ * build_pdfs.mjs —— Markdown → HTML(KaTeX) 构建器（Skill: textbook-full-workflow 第 3 步）
  *
  * 核心机制（详见 references/pipeline.md）：
  *   占位符方案 —— 数学式先 stash 成 MATHSLOTnENDSLOT，等 marked 解析完 Markdown
@@ -59,7 +59,7 @@ body.split-h1 h1:not(:first-of-type) { break-before: page; margin-top: 4px; }
 body.split-h1 h1:nth-of-type(2) { break-before: auto; }
 body.split-h2 h2:not(:first-of-type) { break-before: page; }
 h2 { font-size: 15pt; color: #0b3a66; margin: 20px 0 10px; padding: 5px 12px; background: #eef4fa; border-left: 5px solid #2e6fb7; border-radius: 3px; }
-h3 { font-size: 12pt; color: #1a5fa8; margin: 15px 0 6px; padding-left: 8px; border-left: 3px solid #9dbfe0; }
+h3 { font-size: 12pt; color: #1a5fa8; margin: 30px 0 6px; padding-left: 8px; border-left: 3px solid #9dbfe0; }
 p { margin: 6px 0; text-align: justify; }
 strong { color: #083358; }
 blockquote { margin: 9px 0; padding: 8px 13px; background: #fdf8ec; border-left: 4px solid #d9a520; border-radius: 3px; break-inside: avoid-page; }

@@ -91,7 +91,7 @@ python3 -c "import pymupdf"
 |---|---|
 | 页面 | A4，margin: 13mm 11mm 15mm 11mm |
 | 正文 | 10.5pt / line-height 1.75 |
-| h1/h2/h3 | 19pt / 15pt / 12pt（蓝色系条状标题） |
+| h1/h2/h3 | 19pt / 15pt / 12pt（蓝色系条状标题）；h3 上方 margin 30px（用户验收：小节 1.1/1.2 之间需空一行间距） |
 | 公式 | KaTeX 行内 1.16em、display 1.3em |
 | 表格 | 9.2pt，蓝头 + 斑马纹 |
 | 方法总结框 | blockquote 黄底（#fdf8ec + #d9a520 左边条） |

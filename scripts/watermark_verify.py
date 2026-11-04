@@ -1,7 +1,7 @@
 # Designed by TiantianYe
 #!/usr/bin/env python3
 """
-watermark_verify.py —— PDF 加水印 + 交付前强制验证（Skill: textbook-review-pdfs 第 5 步）
+watermark_verify.py —— PDF 加水印 + 交付前强制验证（Skill: textbook-full-workflow 第 5 步）
 
 职责（两件事一次做完，缺一不可交付）：
     1. 给每页 PDF 上方加 "Designed by TiantianYe" 水印（pymupdf 后处理，位置稳定可验证）；
