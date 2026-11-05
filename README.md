@@ -9,7 +9,7 @@
 > 作者在 App Store 中的其他代表作品：水课帮-课堂提问助手；识词本-单词笔记；投影与视图3D教具；解构照片；实验数据拟合
 
 <p align="center">
-  <img src="assets/pipeline.png" alt="textbook-full-workflow 全流程：电子书下载 → OCR → 精读 → 撰写 → 校对 → 排版 → 交付" width="100%">
+  <img src="assets/pipeline.png?v=2" alt="textbook-full-workflow 全流程：电子书下载 → OCR → 精读 → 撰写 → 校对 → 排版 → 交付" width="100%">
 </p>
 
 ---
