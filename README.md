@@ -138,4 +138,4 @@ textbook-full-workflow/
 
 ## 📄 许可
 
-[MIT](LICENSE)
+[CC BY-SA 4.0](LICENSE)
